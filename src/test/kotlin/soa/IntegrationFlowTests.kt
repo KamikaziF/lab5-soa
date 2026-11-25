@@ -21,7 +21,6 @@ import soa.routing.SendNumber
  * Checks the modules and flows against `docs/EIP.png`.
  * These tests fail on the starter and pass once the flows match the target.
  */
-@Disabled // Remove this line when your modules and flows match docs/EIP.png
 @SpringBootTest
 @ExtendWith(OutputCaptureExtension::class)
 class IntegrationFlowTests(

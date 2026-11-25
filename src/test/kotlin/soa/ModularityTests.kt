@@ -6,7 +6,6 @@ import org.springframework.modulith.core.ApplicationModules
 import org.springframework.modulith.docs.Documenter
 
 /** Checks the module structure and writes its diagrams to build/spring-modulith-docs. */
-@Disabled // Remove this line when your modules and flows match docs/EIP.png
 class ModularityTests {
     private val modules = ApplicationModules.of(IntegrationApplication::class.java)
 
